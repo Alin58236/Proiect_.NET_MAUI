@@ -16,6 +16,7 @@
              ContentTemplate="{DataTemplate local:AboutPage}"
              />
         <ShellContent Title="Rezervarile Mele" ContentTemplate="{DataTemplate local:ListEntryPage}"
+             />        <ShellContent Title="Birturile Mele" ContentTemplate="{DataTemplate local:BirtEntryPage}"
              />
     </TabBar>
 

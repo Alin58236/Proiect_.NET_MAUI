@@ -5,6 +5,9 @@
              Title="Detalii comanda">
     <StackLayout Margin="20">
         <Editor Placeholder="Introduceti detaliile comenzii/rezervarii" Text="{Binding Descriere}" HeightRequest="50" />
+
+        <Picker x:Name="BirtPicker" Title="Alege Birtul"/>
+
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />

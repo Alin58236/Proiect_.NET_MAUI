@@ -18,6 +18,7 @@ namespace beerTMobile.Data
             database.CreateTableAsync<Rezervare>().Wait();
             database.CreateTableAsync<Produs>().Wait();
             database.CreateTableAsync<ListaProdus>().Wait();
+            database.CreateTableAsync<Birt>().Wait();
         }
 
         public Task<int> SaveProdusAsync(Produs product)
@@ -87,5 +88,23 @@ namespace beerTMobile.Data
         {
             return database.DeleteAsync(rlist);
         }
+
+        public Task<List<Birt>> GetBirturiAsync()
+        {
+            return database.Table<Birt>().ToListAsync();
+        }
+        public Task<int> SaveBirtAsync(Birt birt)
+        {
+            if (birt.ID != 0)
+            {
+                return database.UpdateAsync(birt);
+            }
+            else
+            {
+                return database.InsertAsync(birt);
+            }
+        }
+
+
     }
 }
