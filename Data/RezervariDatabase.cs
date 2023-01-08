@@ -54,9 +54,9 @@ namespace beerTMobile.Data
         public Task<List<Produs>> GetListaProduseAsync(int shoplistid)
         {
             return database.QueryAsync<Produs>(
-            "select P.ID, P.Description from Product P"
-            + " inner join ListProduct LP"
-            + " on P.ID = LP.ProductID where LP.ShopListID = ?",
+            "select P.ID, P.Descriere from Produs P"
+            + " inner join ListaProdus LP"
+            + " on P.ID = LP.ProdusID where LP.RezervareID = ?",
             shoplistid);
         }
 
