@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="beerTMobile.ProdusPage"
-             Title="ProdusPage">
+             Title="Lista Produse">
     <ContentPage.Content>
         <StackLayout Margin="20">
             <Editor Placeholder="Introduceti Nume Produs" Margin="20" Text="{Binding Descriere}" HeightRequest="50" />

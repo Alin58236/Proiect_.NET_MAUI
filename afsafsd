@@ -1,0 +1,29 @@
+[33mcommit deda8c7a0e2806ace997a5f76d54e944828ce87b[m[33m ([m[1;36mHEAD[m[33m)[m
+Author: Stoia <alin58236@gmail.com>
+Date:   Mon Jan 9 20:04:02 2023 +0200
+
+    Last modif.
+
+[33mcommit 6221c7cbd8423b4f5b44cecebb8ae10d9bbf3d67[m
+Author: Stoia <alin58236@gmail.com>
+Date:   Mon Jan 9 00:12:09 2023 +0200
+
+    Added Locations
+
+[33mcommit 7fd931cdc4ceeb81646a40c7883b483583d267a1[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Stoia <alin58236@gmail.com>
+Date:   Sun Jan 8 23:29:30 2023 +0200
+
+    Working only one product
+
+[33mcommit 1496451909072641d754d2f601f033079c7978e8[m
+Author: Stoia <alin58236@gmail.com>
+Date:   Sun Jan 8 23:17:26 2023 +0200
+
+    Add project files.
+
+[33mcommit 688addfd34bec43b7eb8e519b8f408e666c0b901[m
+Author: Stoia <alin58236@gmail.com>
+Date:   Sun Jan 8 23:17:04 2023 +0200
+
+    Add .gitattributes, .gitignore, and LICENSE.txt.

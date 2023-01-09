@@ -10,21 +10,21 @@
             VerticalOptions="Center">
 
             <Image
-                Source="dotnet_bot.png"
+                Source="beer.png"
                 SemanticProperties.Description="Bine ai venit la beerT"
                 HeightRequest="200"
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Hello, World!"
+                Text="Bine ai venit la beerT"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Bine ai venit la beerT"
+                Text="Creaza o rezervare"
                 SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Bine ai venit la beerT"
+                SemanticProperties.Description="Creaza o rezervare"
                 FontSize="18"
                 HorizontalOptions="Center" />
 
