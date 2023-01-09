@@ -2,14 +2,14 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="beerTMobile.ListEntryPage"
-             Title="ListEntryPage">
+             Title="Lista Rezervari">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Adauga Rezervare" Clicked="OnRezervareAddedClicked" />
     </ContentPage.ToolbarItems>
     <ListView x:Name="listView" Margin="20" ItemSelected="OnListViewItemSelected">
         <ListView.ItemTemplate>
             <DataTemplate>
-                <TextCell Text="{Binding Descriere}" Detail="{Binding Date}" />
+                <TextCell Text="{Binding Descriere} + {Binding BirtID}" Detail="{Binding Date}" />
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>

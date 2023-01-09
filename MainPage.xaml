@@ -11,7 +11,7 @@
 
             <Image
                 Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                SemanticProperties.Description="Bine ai venit la beerT"
                 HeightRequest="200"
                 HorizontalOptions="Center" />
 
@@ -22,17 +22,17 @@
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Welcome to .NET Multi-platform App UI"
+                Text="Bine ai venit la beerT"
                 SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                SemanticProperties.Description="Bine ai venit la beerT"
                 FontSize="18"
                 HorizontalOptions="Center" />
 
             <Button
                 x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
+                Text="+ Rezervare noua"
+                SemanticProperties.Hint="+ Rezervare noua"
+                Clicked="OnRezervareAddedClicked"
                 HorizontalOptions="Center" />
 
         </VerticalStackLayout>

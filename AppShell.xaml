@@ -8,7 +8,7 @@
 
     <TabBar>
         <ShellContent
-             Title="Welcome"
+             Title="HomePage"
              ContentTemplate="{DataTemplate local:MainPage}"
              />
         <ShellContent

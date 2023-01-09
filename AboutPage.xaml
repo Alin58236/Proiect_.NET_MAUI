@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="beerTMobile.AboutPage"
-             Title="AboutPage">
+             Title="Despre Proiect">
     <VerticalStackLayout Spacing="10" Margin="10">
         <HorizontalStackLayout Spacing="10">
             <Image Source="rezervare.png"
@@ -11,7 +11,7 @@ HeightRequest="64" />
             <Label FontSize="22" FontAttributes="Bold" Text="Rezervarile Mele" VerticalOptions="End" />
             <Label FontSize="22" Text="v1.0" VerticalOptions="End" />
         </HorizontalStackLayout>
-        <Label Text="Aplicatie pentru rezervari" />
+        <Label Text="Aplicatie pentru rezervari: se pot realiza rezervari care sa contina locatii existente (beerT-uri) si o lista de produse existente" />
 
     </VerticalStackLayout>
 </ContentPage>

@@ -1,5 +1,5 @@
 ﻿namespace beerTMobile;
-
+using beerTMobile.Models;
 public partial class MainPage : ContentPage
 {
 	int count = 0;
@@ -20,5 +20,13 @@ public partial class MainPage : ContentPage
 
 		SemanticScreenReader.Announce(CounterBtn.Text);
 	}
+
+    async void OnRezervareAddedClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new ListPage
+        {
+            BindingContext = new Rezervare()
+        });
+    }
 }
 
